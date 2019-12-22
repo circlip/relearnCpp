@@ -1,10 +1,11 @@
 CC=g++
-LIBS=
+LIBS=-lm 
 CFLAGS=
-TARGETS="0101_helloworld" 
+TARGETS=0101_helloworld 0102_functions 
 
 install:
 	for TARGET in ${TARGETS}; do	\
+		echo $${TARGET};	\
 		${CC} -o $$TARGET $${TARGET}.cpp ${LIBS} ${CFLAGS};	\
 	done
 
