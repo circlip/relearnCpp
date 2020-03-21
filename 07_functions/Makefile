@@ -1,7 +1,7 @@
 CC=g++
 LIBS=-lm 
 CFLAGS=
-TARGETS=0101_helloworld 0102_functions 
+TARGETS=0701_ptr2func 0702_reference 0703_ref_struct 0704_template
 
 install:
 	for TARGET in ${TARGETS}; do	\

@@ -1,7 +1,7 @@
 CC=g++
 LIBS=-lm 
 CFLAGS=
-TARGETS=0101_helloworld 0102_functions 
+TARGETS=1001_oop 1002_overload 1003_friends
 
 install:
 	for TARGET in ${TARGETS}; do	\

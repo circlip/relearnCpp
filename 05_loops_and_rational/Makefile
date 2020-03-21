@@ -1,7 +1,7 @@
 CC=g++
 LIBS=-lm 
 CFLAGS=
-TARGETS=0101_helloworld 0102_functions 
+TARGETS=0501_loops 0502_nested 0503_fstream
 
 install:
 	for TARGET in ${TARGETS}; do	\

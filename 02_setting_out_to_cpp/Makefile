@@ -1,7 +1,7 @@
 CC=g++
 LIBS=-lm 
 CFLAGS=
-TARGETS=0101_helloworld 0102_functions 
+TARGETS=0201_myfirst_cpp 0202_data 0203_char
 
 install:
 	for TARGET in ${TARGETS}; do	\
@@ -12,7 +12,6 @@ install:
 clean:
 	for TARGET in ${TARGETS}; do	\
 		echo removing $${TARGET} ...;	\
-		rm $${TARGET}; \
+		rm $${TARGET};	\
 	done
-
 
